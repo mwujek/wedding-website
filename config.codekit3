@@ -116,6 +116,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/scss/components.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/milligram.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -151,6 +177,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/mixin-rules.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/nav-bar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/nav-bar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -192,11 +244,11 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/template-about-us-plain.php": {
+	"/template-home-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/template-about-us-plain.php",
+		"oAP": "/template-home-page.php",
 		"oF": 0
 		}
 	},
@@ -213,7 +265,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,

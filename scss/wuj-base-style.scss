@@ -1,8 +1,23 @@
+#wpadminbar{
+	display: none;
+}
+
+$container-max-width: 960px;
+$dark-color: #3B4659;
+$light-color: #E6EBF0;
+$drop-shadow: rgba(59, 70, 89,0.15) 0px 0px 24px 8px;
 
 @import 'milligram';
+
 @import 'mixin-keys';
 @import 'mixin-rules';
+@import 'typography';
+@import 'components';
+@import 'nav-bar';
+@import 'footer';
 
 body{
-	font-family: 'bicyclette';
+	font-family: 'bicyclette';	
+	margin:0;
+	margin-top: 80px; // past nav-bar
 }

@@ -15,27 +15,26 @@
    
 	<?php wp_head(); ?>	
 
-    
+<style type="text/css">
+	html{margin-top: 0 !important;}
+</style>    
 </head>
 
 
 <body>
 	
-	
 
-		<header class="white-header">
-			
-				<a href="/" class="logo-link">
-					<h1><?php echo $TEMPLATEURL; ?></h1>
-					<img src="<?php echo $TEMPLATEURL; ?>/img/svg-logo.svg">
-				</a>
-					
-				<nav>
-					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_id' => 'nav_main', 'container' => false ) ); ?>
-				</nav>
-			
-		</header>
-	
+<header>
+	<div class="header-inner">
 
-		
-		<section id="main_section">
+		<a href="/" class="logo-link">Alex & Matt</a>
+			
+		<nav>
+			<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_id' => 'nav_main' ) ); ?>
+		</nav>
+
+		<a id="mobile-menu" href="#footer">Menu</a>
+	</div>
+				
+</header>
+	

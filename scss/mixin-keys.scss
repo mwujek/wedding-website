@@ -222,6 +222,16 @@ $breakpoints: (
 
 // // jobs posting
 
+$navigation-inner-padding:(
+  null  :   16px,
+  tablet:   0,
+);
+
+$footer-inner-padding:(
+  null  :   (36px 16px, 0 auto),
+  tablet:   (36px 0, auto),
+);
+
 // $jobs-posting-padding:(
 //   null  :   (20px 0 16px 0, 0 auto),
 //   tablet:   (12px 0 10px 0, 0 auto),
@@ -713,6 +723,16 @@ $breakpoints: (
 // // ••••••••••••••••••••••••••••••
 // // ••••••••••••••••••••••••••••••
 
+
+$mobile-menu-display: (
+  null  :   (block),
+  tablet:   (none),
+);
+
+$desktop-menu-display: (
+  null  :   (none),
+  tablet:   (flex),
+);
 
 
 // // pmt

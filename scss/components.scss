@@ -1,0 +1,102 @@
+$dummy: url('https://placeimg.com/720/440/nature');
+$heightRatio: calc(100vw * 0.5625);
+
+
+.btn-container{
+	width: 100%;
+	display: flex;
+	padding: 20px 0;
+	&.center{
+		align-items: center;
+		justify-content: center;
+	}
+
+	&.left{
+		align-items: center;
+		justify-content: flex-start;
+	}
+}
+.rounded-button{
+	height: 48px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	&.dark{
+		background: $dark-color;
+		color: #fff;
+	}
+
+
+}
+
+// hero full width
+.hero-full-width{
+	display: flex;
+	width: 100%;
+	height: $heightRatio;
+	min-height: 420px;
+	background-image: $dummy;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+}
+
+.nug{
+	max-width: calc(100% - 32px);
+	background: #fff;
+	padding: 24px;
+	padding-top: 40px;
+	border-radius: 16px;
+	box-shadow: $drop-shadow;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1,h2{
+    	margin-bottom: 0;
+    	text-align: center;
+    }
+
+}
+
+.full-width-di{
+    width: $container-max-width;
+    margin: 60px auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .image{
+    	padding: 24px;
+    	img{
+    		max-width: 100%;
+    		height: auto;
+    	}
+    }
+	&.text-right{
+		.image{order:-1}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
