@@ -9,20 +9,20 @@ Template Name: Home Page Template
 
 
 <section class="hero-full-width">
-    <div class="nug">
+    <!-- <div class="nug">
         <h1>I want to get fucked</h1>
-        <h2>and do butt stuff</h2>
+        <h3>and do butt stuff</h3>
         <div class="btn-container center">
             <a class="rounded-button dark">Yewwww</a>
         </div>
-    </div>
+    </div> -->
 </section>
 
 
-<section class="full-width-di text-right">
+<section class="full-width-di text-right space-3x">
     <div class="text">
-        <h1>Save the Date!</h1>
-        <h2>Saturday, June 22nd 2019</h2>
+        <h2>Save the Date!</h2>
+        <h3>Saturday, June 22nd 2019</h3>
         <div class="btn-container left">
             <a class="rounded-button dark">RSVP Here</a>
         </div>
@@ -35,32 +35,53 @@ Template Name: Home Page Template
 </section>
 
 
-<section class="hero-full-width">
+<section class="hero-full-width yokayo">
     <div class="nug">
-        <h1>I want to get fucked</h1>
-        <h2>and do butt stuff</h2>
+        <h2>Where?</h2>
+        <h3>Yoyako Ranch</h3>
+        <h3>Ukiah, California</h3>
         <div class="btn-container center">
-            <a class="rounded-button dark">Yewwww</a>
+            <a class="rounded-button dark">Travel Info</a>
         </div>
     </div>
 </section>
 
+<section class="full-width-di space-3x">
+    <div class="text">
+        <h2>Who’s coming?</h2>
+        <h3>Our families, good friends, and our dog.</h3>
+        <div class="btn-container left">
+            <a class="rounded-button dark fatty">Meet our people</a>
+        </div>
 
-<div class="container" style="height: 600px">
+    </div>
 
-  <div class="row">
-    <div class="column">.column</div>
-    <div class="column">.column</div>
-    <div class="column">.column</div>
-    <div class="column">.column</div>
-  </div>
+    <div class="image">
+        <img src="https://placeimg.com/420/240/nature">
+    </div>
+</section>
 
-  <div class="row">
-    <div class="column">.column</div>
-    <div class="column column-50 column-offset-25">.column column-50 column-offset-25</div>
-  </div>
 
+
+<div class="content-backdrop dark">
+<section class="full-width-di space-3x text-right">
+    <div class="text">
+        <h2>Our story</h2>
+        <h3>Some placeholder text with a short preview of what makes alex and wuj so special.</h3>
+        <div class="btn-container left">
+            <a class="rounded-button dark">Read more</a>
+        </div>
+
+    </div>
+
+    <div class="image">
+        <img src="https://placeimg.com/420/240/nature">
+    </div>
+</section>
 </div>
+
+
+
 
         
 

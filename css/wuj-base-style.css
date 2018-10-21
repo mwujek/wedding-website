@@ -534,20 +534,25 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 40px; }
+  border-radius: 40px;
+  cursor: pointer; }
   .rounded-button.dark {
     background: #3B4659;
     color: #fff; }
+  .rounded-button.fatty {
+    padding: 0 40px; }
 
 .hero-full-width {
   display: flex;
   width: 100%;
   height: calc(100vw * 0.5625);
   min-height: 420px;
-  background-image: url("https://placeimg.com/720/440/nature");
+  background-image: url("http://mattwujek.com/image-hosting/masterwuj.png");
   background-size: cover;
   align-items: center;
   justify-content: center; }
+  .hero-full-width.yokayo {
+    background-image: url("https://static1.squarespace.com/static/576c49ef440243decaaa5480/57b6669fff7c50cc435ebfd3/57b666a0ff7c50cc435ebfd5/1471571621973/_V4A6763+%281%29.jpg?format=2500w"); }
 
 .nug {
   max-width: calc(100% - 32px);
@@ -559,18 +564,45 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  .nug h1, .nug h2 {
+  align-items: center;
+  min-width: 380px; }
+  .nug h2 {
+    font-family: 'halogen';
+    font-weight: 700;
+    letter-spacing: 1px; }
+  .nug h2, .nug h3 {
     margin-bottom: 0;
     text-align: center; }
 
 .full-width-di {
-  width: 960px;
-  margin: 60px auto;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 0;
+  padding: 64px 16px !important;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column;
+  align-items: inherit; }
+  @media screen and (min-width: 768px) {
+    .full-width-di {
+      padding: 128px 0 !important;
+      margin: 0 auto; } }
+  @media screen and (min-width: 480px) {
+    .full-width-di {
+      flex-direction: row;
+      align-items: inherit; } }
+  .full-width-di h2, .full-width-di h3 {
+    margin-bottom: 0;
+    text-align: left; }
+  .full-width-di h2 {
+    font-family: 'halogen';
+    font-weight: 700;
+    letter-spacing: 1px; }
+  .full-width-di .text {
+    max-width: 380px; }
   .full-width-di .image {
     padding: 24px; }
     .full-width-di .image img {
@@ -578,6 +610,18 @@ img {
       height: auto; }
   .full-width-di.text-right .image {
     order: -1; }
+  .full-width-di:not(.text-right) .image {
+    opacity: 0.2;
+    order: -1; }
+    @media screen and (min-width: 480px) {
+      .full-width-di:not(.text-right) .image {
+        order: 0; } }
+  .full-width-di.space-3x {
+    padding: 128px 0; }
+
+.content-backdrop {
+  width: 100%;
+  background: #d5dff1; }
 
 header {
   position: fixed;

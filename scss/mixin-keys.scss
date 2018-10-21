@@ -232,6 +232,12 @@ $footer-inner-padding:(
   tablet:   (36px 0, auto),
 );
 
+
+$di-padding:(
+  null  :   (64px 16px !important, 0 auto),
+  tablet:   (128px 0 !important, 0 auto),
+);
+
 // $jobs-posting-padding:(
 //   null  :   (20px 0 16px 0, 0 auto),
 //   tablet:   (12px 0 10px 0, 0 auto),
@@ -1026,6 +1032,16 @@ $desktop-menu-display: (
 // // ••••••••••••••••••••••••••••••
 // // ••••••••••••••••••••••••••••••
 // // flex-direction  align-items  justify-content  
+
+$di-flex:(
+  null:   (column, inherit),
+  tween:    (row, inherit)
+);
+
+$image-top: (
+	null:   -1,
+	tween:  0
+);
 
 // $simple-column-flex:(
 //   null  :   ( column ),
