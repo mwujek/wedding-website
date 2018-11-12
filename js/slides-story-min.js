@@ -1,0 +1,1 @@
+var $=jQuery.noConflict();$(document).ready(function(){$(".slide-content.story").flickity({cellSelector:".slide-item",prevNextButtons:!1,adaptiveHeight:!0})});

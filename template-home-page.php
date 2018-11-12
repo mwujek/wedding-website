@@ -2,13 +2,15 @@
 /*
 Template Name: Home Page Template
 */
+$url = get_template_directory_uri(); 
 ?>
 
 
 <?php get_header(); ?>
 
 
-<section class="hero-full-width">
+<section class="hero-full-width home-hero">
+    <!-- s -->
     <!-- <div class="nug">
         <h1>I want to get fucked</h1>
         <h3>and do butt stuff</h3>
@@ -19,7 +21,7 @@ Template Name: Home Page Template
 </section>
 
 
-<section class="full-width-di text-right space-3x">
+<!-- <section class="full-width-di text-right space-3x">
     <div class="text">
         <h2>Save the Date!</h2>
         <h3>Saturday, June 22nd 2019</h3>
@@ -29,8 +31,16 @@ Template Name: Home Page Template
 
     </div>
 
-    <div class="image">
-        <img src="https://placeimg.com/420/240/nature">
+    
+</section> -->
+
+<section class="content-backdrop white space-3x">
+    <div class="nug">
+        <h2>Save the Date!</h2>
+        <h3>Saturday, June 22nd 2019</h3>
+        <div class="btn-container center">
+            <a class="rounded-button dark fatty">RSVP Here</a>
+        </div>
     </div>
 </section>
 
@@ -46,20 +56,20 @@ Template Name: Home Page Template
     </div>
 </section>
 
-<section class="full-width-di space-3x">
-    <div class="text">
+
+<section class="content-backdrop white space-3x">
+    <div class="nug">
         <h2>Who’s coming?</h2>
         <h3>Our families, good friends, and our dog.</h3>
-        <div class="btn-container left">
+        <div class="btn-container center">
             <a class="rounded-button dark fatty">Meet our people</a>
         </div>
-
-    </div>
-
-    <div class="image">
-        <img src="https://placeimg.com/420/240/nature">
     </div>
 </section>
+
+        
+
+
 
 
 
@@ -74,8 +84,8 @@ Template Name: Home Page Template
 
     </div>
 
-    <div class="image">
-        <img src="https://placeimg.com/420/240/nature">
+    <div class="image circle">
+        <img src="<?php echo($url); ?>/img/square-1.jpg">
     </div>
 </section>
 </div>

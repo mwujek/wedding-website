@@ -7,7 +7,7 @@
             <div class="footer-inner">
                 <section class="footer-row">
                     <div class="footer-left-col">
-                        <div class="lottie-footer"></div>
+                        <!-- <div class="lottie-footer"></div> -->
                         <ul id="footer-menu-left">
                             <li>Alex & Matt</li>
                             <li>June 22<span class="sup">nd</span>, 2018</li>

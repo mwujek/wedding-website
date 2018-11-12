@@ -5,6 +5,7 @@
 $container-max-width: 960px;
 $dark-color: #3B4659;
 $light-color: #E6EBF0;
+$mid-grey: #9EA8B0;
 $drop-shadow: rgba(59, 70, 89,0.15) 0px 0px 24px 8px;
 
 @import 'milligram';
@@ -15,9 +16,13 @@ $drop-shadow: rgba(59, 70, 89,0.15) 0px 0px 24px 8px;
 @import 'components';
 @import 'nav-bar';
 @import 'footer';
+@import 'slides';
+@import 'forms';
+@import 'registry';
 
 body{
 	font-family: 'bicyclette';	
 	margin:0;
+	color: $dark-color;
 	margin-top: 80px; // past nav-bar
 }

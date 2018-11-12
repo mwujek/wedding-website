@@ -7,6 +7,8 @@
 	<title>Masterwuj — Alex & Matt's Wedsite</title>
 	<!-- <link rel="shortcut icon" href="//www.scoot.co/bolt-sm.ico?v=1" /> -->
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<!-- TYPEKIT -->
 	<link rel="stylesheet" href="https://use.typekit.net/hla7uct.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/wuj-base-style.css">
